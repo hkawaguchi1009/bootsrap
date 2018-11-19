@@ -43,7 +43,7 @@ Starter Code for the Bootstrap Assignment.  This assignment illustrates how to u
  
 5. Add the Font Awesome fa-question-circle glyphicon before the sentence that starts, "Are you sure ...".  Note that this has be done using an empty span.
  
-6.Clicking the No button on the dialog box closes the dialog box.
+6. Clicking the No button on the dialog box closes the dialog box.
   * Add another Bootstrap alert in the HTML like the alert with ID "yesAlert", but make the new alert use ID "noAlert".
   * Change the wording to indicate that something went wrong, and change the "ok" glyphicon to "exclamation-sign".
   * Change the alert's class from "alert-success" to "alert-danger".
