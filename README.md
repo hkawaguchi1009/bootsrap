@@ -1,7 +1,7 @@
 # BootstrapAssignment
 Starter Code for the Bootstrap Assignment.  This assignment illustrates how to use Bootstrap to create a modal dialog box.  Modal dialog boxes are an alternative to the tradtitonal web application method of using a link to open a separate page for each page of the app.  You may find this technique useful in developing your semester project.
 
-**Note:** The following exercise is adapted from your textbook. The exercise has been updated to use the latest version of Bootstrap, Bootstrap 4.  The major change is that Bootstrap 4 no longer provides the Glythicon font of icons.  This exercises use icons provided by Font Awesome.
+**Note:** The following exercise is adapted from your textbook. The exercise has been updated to use the latest version of Bootstrap, Bootstrap 4.  The major change is that Bootstrap 4 no longer provides the Glythicon font of icons.  This exercises use icons provided by Font Awesome. A list of the Font Awesome icons can be found [here](https://fontawesome.com/v4.7.0/icons/).
 
 ## Directions
 
@@ -49,3 +49,4 @@ Starter Code for the Bootstrap Assignment.  This assignment illustrates how to u
   * Change the alert's class from "alert-success" to "alert-danger".
   * Finally, add some JavaScript similar to the code that is already present that will register a callback function when the No button (button with the class btn-default) is clicked. The callback function should show the alert with ID "noAlert".
 
+7. When you have the code working. Commit it to your local repo, push the changes back to the development branch of the repo, and merge the development branch back into the master branch.
