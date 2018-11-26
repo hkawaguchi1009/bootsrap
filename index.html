@@ -17,16 +17,36 @@
 <body>
     <div class="container-fluid">
         <br>
-        <button type="button" class="btn btn-primary" aria-label="Send Email" >
+        <button type="button" class="btn btn-primary" aria-label="Send Email" data-toggle="modal" data-target="#myModal">
             <span class="fa fa-envelope" aria-hidden="true"></span> &nbsp;Email
         </button>
         
         <br><br>
         
         <!-- Code to create a modal dialog form goes here -->
- 
-        
-        
+        <div class = "modal fade" tabindex = "-1" role = "dialog" id = "myModal">
+            <div class = "modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Confirm Sending</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <span class="glyphicon fa-question-circle glyphicon"></span>
+                        <p>Are you sure you want to send the email?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Yes</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-danger collapse" role="alert" id="noAlert">
+              <span class="glyphicon glyphicon-exclamation-sign" style="font-size:1.2em" aria-hidden="true"></span>
+              <strong>Oh!</strong> Something went wrong.
+        </div>
         <div class="alert alert-success collapse" role="alert" id="yesAlert">
               <span class="glyphicon glyphicon-ok" style="font-size:1.2em" aria-hidden="true"></span>
               <strong>Email away!</strong> Your email has been sent.
